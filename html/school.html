@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.6.1.js"
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
@@ -15,18 +15,19 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="/scripts/myjs.js"></script>
-    <title>Home Page</title>
+    <title>Educational Background</title>
   </head>
   <body>
     <div class="dim"></div>
+
     <header>
       <div class="container container-nav">
         <div class="logo"><span>Vhaugnn</span></div>
         <div class="header-nav">
           <nav>
             <ul class="links">
-              <li><a class="active" href="/index.html">Home</a></li>
-              <li><a href="/html/school.html">School</a></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a class="active" href="/html/school.html">School</a></li>
               <li><a href="/html/family.html">Family</a></li>
               <li><a href="/html/hobbies.html">Hobbies</a></li>
               <li><a href="/html/friends.html">Friends</a></li>
@@ -61,43 +62,87 @@
     </div>
 
     <main>
-      <div class="wrapper">
-        <div class="container sec-1-container">
-          <div class="image-holder">
-            <img src="/img/home1.jpg" alt="" />
+      <section>
+        <div class="container school-sec-1">
+          <div class="image-holder image-holder-school">
+            <img src="/img/school1.jpg" width="25%" />
           </div>
-          <div class="text-holder text-holder-1">
+          <div class="text-holder-school text-holder">
+            <h1>Where am I studying?</h1>
             <p>
-              This is me when I celebrated my birthday on <b>Febraury 27</b>. I
-              am currently <b>20 years old</b>, and not rly sure what to do with
-              my life.
+              As you can see, that's me wearing my uniform in
+              <b>La Verdad Christian College</b>. Please don't bother the
+              unbuttoned button :))
+            </p>
+            <p>
+              I'm taking the course <b>Associate in Computer Technology</b>,
+              currently in my second year and if I survive, I might graduate
+              this year also, God Willing. Soooo, why did I take this course?
+              well honestly, I took the exam without knowing what I'm putting
+              myself into. I choose this because it's the only course with a
+              lesser years to graduate.
             </p>
           </div>
         </div>
 
-        <div class="sec-2-container container">
-          <div class="image-holder image-holder-2">
-            <img style="height: 100%" src="img/me (2).jpg" alt="" />
+        <div class="container school-sec-2">
+          <div class="image-holder">
+            <img src="/img/school2.jpg" width="25%" alt="" />
           </div>
-          <div class="text-holder-2">
-            <ul class="personaldetails">
-              <li>
-                <span class="bday">Date of Birth:</span>
-                <span>Febraury 27, 2002</span>
-              </li>
-              <li>
-                <span class="add">Address:</span>
-                <span
-                  >Phase 5, block 1, Lot 5 Highview Executive Homes, Sampaloc,
-                  Apalit, Pampanga</span
-                >
-              </li>
-              <li><span class="num">Phone:</span> <span>09672452360</span></li>
-            </ul>
+          <div class="text-holder">
+            <p>
+              OKAAAAY, the image above is one of my favorite picture. It's me
+              with Ma'am Luz, as she pins the insignia. With God's help, I've
+              become a part of the Student's Government in La Verdad.
+            </p>
           </div>
         </div>
-      </div>
+        <h2>School History</h2>
+
+        <table border="1">
+          <tr>
+            <td><b>Elementary</b></td>
+            <td>Nazarene Christian Learning Center</td>
+            <td>Cebu</td>
+          </tr>
+          <tr>
+            <td><b>Junior HighSchool</b></td>
+            <td>
+              <table border="1">
+                <tr>
+                  <td>Grade 7 - Negros Occidental High School</td>
+                </tr>
+                <tr>
+                  <td>Grade 8 - Arraullo HighSchool</td>
+                </tr>
+                <tr>
+                  <td>Grade 9 and 10 - Mariano Marcos Memorial HighSchool</td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table border="1">
+                <tr>
+                  <td>Bacolod</td>
+                </tr>
+                <tr>
+                  <td>Manila</td>
+                </tr>
+                <tr>
+                  <td>Manila</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Senior HighSchool</b></td>
+            <td>La Verdad Christian College</td>
+            <td>Pampanga</td>
+          </tr>
+        </table>
+      </section>
     </main>
+
     <footer>
       <section class="my_footer">
         <div class="container footer">
